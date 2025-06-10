@@ -2,9 +2,56 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Manuela Barros</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <a href="index.html">
+    <meta name="viewport" content="width=device-widht,initial-scale=1.0">
+    <meta name="desription" content="mi portafolio">
+    <meta name="author" content="Manuela Barros">
+    <meta name="keywords" content="portafolio-diseños-contacto"> 
 </head>
 <body>
-    
+    <header>
+        <nav class="botonera">
+            <a>Sobre mi</a>
+            <a>Mis diseños</a>
+            <a>Contacto</a>
+        </nav>
+        <section class="cambio">
+             <h1>Contacto</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <p>11314271893</p>
+            <p>manuelabarros13@hotmail.com</p>
+            <p>https://www.behance.net/manubarros#</p>
+        </section>
+        <section>
+            <h3>¡Trabajemos junt@s!</h3>
+                <form method="post" action="mail to: manuelabarros13@hotmail.com" ?subject="Email enviado desde formulario" target="_blank" enctype="text/plain">
+            <p>*campos obigatorios</p>
+            <label for="Nombre": Nombre:></label>
+            <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Ej:Manu" required> 
+            <label for="Mail": Mail></label>
+            <input type="text" name="Mail" id="Mail" maxlength="70" placeholder="Ej:manuelabarros13@hotmail.com" required>
+            <label for="Tel": Tel:></label>
+            <input type="text" name="Tel" id="Tel" maxlength="30" placeholder="Ej: 1131423568">
+            <label for="Behance": Behance:></label>
+            <input type="text" name="Behance" id="Behance" maxlength="30" placeholder="Ej:manubarros#"> 
+            <label for="Mensaje": Mensaje:></label>
+            <textarea name="Mensaje" id="Mensaje"></textarea>
+            <label for="Archivos">Archivos</label>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar" formenctype="text/plain">
+                </form>
+        </section>
+    </main>
+    <footer>
+        <p>TP3/Compu 3 - DyCV/UNLa</p>
+    </footer>
 </body>
 </html>

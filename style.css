@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: rgb(248, 230, 214);
+    background-color:gainsboro;
     width: 100%;
     max-width: 1200px;
     padding: 40px;
@@ -22,14 +22,49 @@ header {
     text-align: center;
 }
 
-h1 {
-    color: indianred;
-    font-style: oblique;
+/* INDEX */
+.datos {
+    color: #444;
+    font-style: bold;
     font-size: 60px;
 }
 
+h2{
+
+}
+
+/* DISEÑOS */
+.cambio {
+    color:white;
+    background:#444;
+    font-style: bold;
+    font-size: 60px;
+}
+
+/* CONTACTO */
+.cambio {
+    color:white;
+    background:#444;
+    font-style: bold;
+    font-size: 60px;
+}
+
+/* HABILIDADES */
+.habilidades {
+    flex: 1;
+    background-color:gainsboro;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.info-item h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
 .botonera {
-    background-color: indianred;
+    background-color:#444;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,6 +82,8 @@ main.contenedor {
     flex-direction: column;
     gap: 30px;
     padding: 20px;
+    color:#444;
+    background: white;
 }
 
 /* FOTO + PRESENTACIÓN */
@@ -54,6 +91,8 @@ main.contenedor {
     display: flex;
     gap: 20px;
     align-items: center;
+    color:#444;
+    background: white;
 }
 
 .foto {
@@ -65,9 +104,10 @@ main.contenedor {
     margin-top: 10px;
     font-size: 16px;
     color: #333;
+    background: white
 }
 
-/* EDUCACIÓN EN 3 COLUMNAS */
+/* EDUCACIÓN */
 .educacion {
     display: flex;
     justify-content: space-between;
@@ -76,7 +116,7 @@ main.contenedor {
 
 .edu-item {
     flex: 1;
-    background-color:rgb(248, 230, 214);
+    background-color:gainsboro;
     padding: 10px;
     border-radius: 8px;
 }
@@ -86,7 +126,7 @@ main.contenedor {
     margin-bottom: 5px;
 }
 
-/* EXPERIENCIA + PROGRAMAS */
+/* EXPERIENCIA + PROYECTOS + PROGRAMAS */
 .info-final {
     display: flex;
     justify-content: space-between;
@@ -95,7 +135,7 @@ main.contenedor {
 
 .info-item {
     flex: 1;
-    background-color:rgb(248, 230, 214);
+    background-color:gainsboro;
     padding: 15px;
     border-radius: 8px;
 }
@@ -114,34 +154,17 @@ main.contenedor {
     display: flex;
     gap: 20px;
 }
-/* HOBBIES */
-.info-hobbie {
-    flex: 2;
-    background-color:rgb(248, 230, 214);
-    padding: 25px;
-    border-radius: 8px;
-    color: #444;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-
-.info-hobbie h3 {
-    color: #444;
-    margin-bottom: 15px;
-
-}
 
 aside {
     display: flex ;
     flex-direction: column;
     justify-content: center;
     column-gap: 20px; 
-    color: #444;
+    color: white;
     padding: 30px;
     margin-left: auto;
     border-radius: 8px;
-    background-color: indianred;
+    background-color:#444;
     margin-right: 50px;
 }
 
@@ -153,16 +176,16 @@ article {
     color: #444;
     padding: 25px;
     border-radius: 8px;
-    background-color: rgb(248, 230, 214);
+    background-color:white;
     gap: 20px;
 }
 
 footer {
-    background-color:indianred;
-    color: white;
-    text-align: center;
+    background-color:gainsboro;
+    color:#444;
+    text-align:right;
     padding: 15px;
     width: 100%;
     max-width: 1200px;
     margin-top: 30px;
-}
+    }
