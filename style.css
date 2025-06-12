@@ -95,10 +95,6 @@ main.contenedor {
     background: white;
 }
 
-.foto {
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .texto-presentacion p {
     margin-top: 10px;
@@ -178,6 +174,53 @@ article {
     border-radius: 8px;
     background-color:white;
     gap: 20px;
+}
+
+/* FORMULARIO DE CONTACTO */
+form {
+width: 100%;
+height: auto;
+border: 1px solid black;
+display: flex;
+flex wrap: wrap;
+}
+
+form div {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+label {
+    display: block; 
+    height: 25px;
+    background-color: gainsboro;
+}
+
+input {
+    width: 100%;
+    background-color: #444;
+    margin-bottom: 5px;
+}
+
+input [ type=radio ], input [ type=chackbox ] {
+    width: auto;
+    height: auto;
+}
+
+input [ type=submit ], input [ type=reset ] {
+    height: 30px;
+    width: 150;
+    color: #fff;
+}
+
+.borrar {
+background-color: #555;
+}
+
+.enviar{
+    background-color: #000;
+    margin: 0px 20px 0px 10px;
 }
 
 footer {
