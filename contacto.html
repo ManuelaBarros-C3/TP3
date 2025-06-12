@@ -14,16 +14,17 @@
 <body>
     <header>
         <nav class="botonera">
-            <a href="index.html">Sobre mi</a>
-            <a href="diseños.html">Mis diseños</a>
-            <a href="index.html">Contacto</a>
+            <a class="link" href="index.html">Sobre mi</a>
+            <a class="link" href="diseños.html">Mis diseños</a>
+            <a class="link" href="index.html">Contacto</a>
         </nav>
-        <div class="cambio">
-             <h1>Contacto</h1>
+        <div class="background">
+             <h1 class="cambio">Contacto</h1>
         </div>
     </header>
-    <main>
-        <section>
+    <main class="formulario">
+        <section class="info-contacto">
+            <h5>CONTACTO</h5>
             <p>11314271893</p>
             <p>manuelabarros13@hotmail.com</p>
             <p>https://www.behance.net/manubarros#</p>
@@ -32,17 +33,17 @@
             <h3>¡Trabajemos junt@s!</h3>
                 <form method="post" action="mail to: manuelabarros13@hotmail.com" ?subject="Email enviado desde formulario" target="_blank" enctype="text/plain">
             <p>*campos obigatorios</p>
-            <label for="Nombre": Nombre:></label>
+            <label for="Nombre"> Nombre: </label>
             <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Ej:Manu" required> 
-            <label for="Mail": Mail></label>
+            <label for="Mail"> Mail: </label>
             <input type="text" name="Mail" id="Mail" maxlength="70" placeholder="Ej:manuelabarros13@hotmail.com" required>
-            <label for="Tel": Tel:></label>
+            <label for="Tel"> Tel:</label>
             <input type="text" name="Tel" id="Tel" maxlength="30" placeholder="Ej: 1131423568">
-            <label for="Behance": Behance:></label>
+            <label for="Behance"> Behance:</label>
             <input type="text" name="Behance" id="Behance" maxlength="30" placeholder="Ej:manubarros#"> 
-            <label for="Mensaje": Mensaje:></label>
+            <label for="Mensaje"> Mensaje: </label>
             <textarea name="Mensaje" id="Mensaje"></textarea>
-            <label for="Archivos">Archivos</label>
+            <label for="Archivos"> Archivos </label>
             <input type="reset" value="Borrar">
             <input type="submit" value="Enviar" formenctype="text/plain">
                 </form>
