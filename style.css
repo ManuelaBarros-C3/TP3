@@ -104,9 +104,10 @@ h5 {
 .botonera {
     background-color:#444;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    padding: 30px;
+    padding: 40px 100px;
+    margin-bottom: 10px;
     height: 10px;
     font-size: 14px;
     flex-wrap: wrap;
@@ -281,6 +282,7 @@ background-color: #555;
     margin: 0px 20px 0px 10px;
 }
 
+
 footer {
     background-color:gainsboro;
     color:#444;
@@ -289,4 +291,95 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin-top: 30px;
+    }
+
+/* GALERIA CON GRID */
+.grid-container {
+     display:grid;
+     grid-gap:5px;
+     grid-template-columns: 100%;
+}
+
+.grid-imagenes {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* FLOR */
+.flor-cita {
+     position: relative;
+     display: grid;
+     place-items: center;
+}
+
+.flor {
+     width: 10px;
+     height: 10px;
+     animation: giro 4s linear infinite;
+}
+
+.petalo {
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px 80px;
+}
+
+.petalo-1 {
+    transform: rotate(0deg) translate(-5px,-5px) scale(2);
+}
+ 
+.petalo-2 {
+    transform: rotate(45deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-3 {
+    transform: rotate(90deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-4 {
+    transform: rotate(135deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-5 {
+    transform: rotate(180deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-6 {
+    transform: rotate(225deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-7 {
+    transform: rotate(270deg) translate(-5px,-5px) scale(2);
+}
+
+.petalo-8 {
+    transform: rotate(315deg) translate(-5px,-5px) scale(2);
+}
+
+/*ANIMACION FLOR*/
+ @keyframes giro {
+     0%{
+        transform: scale(0) translate(-30,-30);
+     }
+     30%{
+         transform: scale(1) rotate(50deg);
+     }
+     70%{
+         transform: scale(1) rotate(70deg);
+     }
+     90%{
+         transform: scale(1) rotate(90deg);
+     }
+     100%{
+         transform: scale(1) rotate(100deg);
+     }
+}
+
+@media screen and (max-width: 600px)
+    .ppal{
+        padding 30px;
     }
